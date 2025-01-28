@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+
+* {
+  font-family: "Comfortaa", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.toolbar {
+  padding: 20px;
+  background-color: #e1dfdf;
+}
+
+.toolbar .head {
+  display: flex;
+  grid-gap: 10px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.toolbar .head > input {
+  padding: 6px 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  width: 100px;
+  outline: none;
+}
+
+.toolbar .head select {
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 2px 10px;
+}
+
+.toolbar .head .color {
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 2px 10px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 6px;
+  padding: 0 10px;
+}
+
+.toolbar .head .color input {
+  border: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  height: 20px;
+  width: 26px;
+  background: #fff;
+}
+
+.toolbar .btn-toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  grid-gap: 10px;
+}
+
+.toolbar .btn-toolbar button {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fff;
+  outline: none;
+}
+
+#content {
+  padding: 20px;
+  outline: none;
+  height: 500px;
+  resize: vertical;
+  overflow: auto;
+  line-height: 1.5;
+}
+
+#content span {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #999;
+}
+
